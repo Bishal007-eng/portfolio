@@ -115,14 +115,7 @@ export default function Project() {
             </svg>
           </button>
         </div>
-
-        <br />
-        <hr />
-
-
-      </div>
-
-      
+      </div>      
     </div>
   )
 }
