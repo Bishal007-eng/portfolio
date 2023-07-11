@@ -8,14 +8,14 @@ export default function Navbar() {
     setNav(!nav)
   }
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1540px] mx-auto px-4 text-white'>
+    <div className='flex justify-between items-center h-24 max-w-[1540px] mx-auto px-4 text-white'> 
       <h1 className='w-full text-3xl font-bold text-[#2ec1ac]'>Portfolio</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4 text-[#279e8c] text-xl'>Home</li>
-        <li className='p-4 text-[#279e8c] text-xl'>About</li>
-        <li className='p-4 text-[#279e8c] text-xl'>Projects</li>
-        <li className='p-4 text-[#279e8c] text-xl'>Blogs</li>
-        <li className='p-4 text-[#279e8c] text-xl'>Contact</li>
+        <a className='p-4 text-[#279e8c] font-bold text-xl' href="/">Home</a>
+        <a className='p-4 text-[#279e8c] font-bold text-xl' href='/'>About</a>
+        <a className='p-4 text-[#279e8c] font-bold text-xl' href='/Projects'>Projects</a>
+        <a className='p-4 text-[#279e8c] font-bold text-xl' href='/TravelBlogs'>TravelBlogs</a>
+        <li className='p-4 text-[#279e8c] font-bold text-xl' href='/'>Contact</li>
       </ul>
       
       <div onClick={HandleNav} className='block md:hidden'>

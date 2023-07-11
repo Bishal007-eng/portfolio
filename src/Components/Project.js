@@ -5,7 +5,7 @@ import Hotel from '../images/hotel1.jpg';
 
 export default function Project() {
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div className='w-full text-white py-16 px-4'>
 
       <div className="max-w-[1540px] mx-auto grid md:grid-cols-2">
 
@@ -21,7 +21,7 @@ export default function Project() {
             quaerat placeat! A, non. Sint rerum officiis unde praesentium dicta reprehenderit dolorem eius nemo eos, assumenda ipsa 
             doloribus.
           </p>
-          <button className='bg-black w-[200px] rounded-md flex font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>View Project
+          <button className='bg-[#071952] w-[200px] rounded-md flex font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>View Project
             <svg 
               className="mx-5 w-6 h-6 text-white-800 dark:text-white" 
               aria-hidden="true" xmlns="http://www.w3.org/2000/svg" 
@@ -41,7 +41,6 @@ export default function Project() {
       </div>
 
       <br />
-      <hr />
 
       <div className="max-w-[1540px] mx-auto grid md:grid-cols-2">
 
@@ -57,7 +56,7 @@ export default function Project() {
             quaerat placeat! A, non. Sint rerum officiis unde praesentium dicta reprehenderit dolorem eius nemo eos, assumenda ipsa 
             doloribus.
           </p>
-          <button className='bg-black w-[200px] rounded-md flex font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>View Project
+          <button className='bg-[#071952] w-[200px] rounded-md flex font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>View Project
             <svg 
               className="mx-5 w-6 h-6 text-white-800 dark:text-white" 
               aria-hidden="true" xmlns="http://www.w3.org/2000/svg" 
@@ -76,13 +75,9 @@ export default function Project() {
         </div>
 
         <br />
-        <hr />
-
-
       </div>
 
       <br />
-      <hr />
 
       <div className="max-w-[1540px] mx-auto grid md:grid-cols-2">
 
@@ -98,7 +93,7 @@ export default function Project() {
             quaerat placeat! A, non. Sint rerum officiis unde praesentium dicta reprehenderit dolorem eius nemo eos, assumenda ipsa 
             doloribus.
           </p>
-          <button className='bg-black w-[200px] rounded-md flex font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>View Project
+          <button className='bg-[#071952] w-[200px] rounded-md flex font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>View Project
             <svg 
               className="mx-5 w-6 h-6 text-white-800 dark:text-white" 
               aria-hidden="true" xmlns="http://www.w3.org/2000/svg" 
