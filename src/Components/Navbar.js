@@ -15,7 +15,7 @@ export default function Navbar() {
         <a className='p-4 text-[#279e8c] font-bold text-xl' href='/'>About</a>
         <a className='p-4 text-[#279e8c] font-bold text-xl' href='/Projects'>Projects</a>
         <a className='p-4 text-[#279e8c] font-bold text-xl' href='/TravelBlogs'>TravelBlogs</a>
-        <li className='p-4 text-[#279e8c] font-bold text-xl' href='/'>Contact</li>
+        <a className='p-4 text-[#279e8c] font-bold text-xl' href='/'>Contact</a>
       </ul>
       
       <div onClick={HandleNav} className='block md:hidden'>
@@ -23,11 +23,11 @@ export default function Navbar() {
         <div className= {nav ? 'fixed left-0 top-0 w-[60%] h-full border-r  bg-[#000300] ease-in duration-300' : 'fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold m-4 text-[#2ec1ac]'>Portfolio</h1>
         <ul className='uppercase p-4'>
-          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'>Home</li>
-          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'>About</li>
-          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'>projects</li>
-          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'>Blogs</li>
-          <li className='p-4 text-xl text-[#2ec1ac]'>Contact</li>
+          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/'>Home</a></li>
+          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/'>About</a></li>
+          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/Projects'>projects</a></li>
+          <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/TravelBlogs'>Blogs</a></li>
+          <li className='p-4 text-xl text-[#2ec1ac]'><a href='/'>Contact</a></li>
         </ul>
       </div>
       </div>       

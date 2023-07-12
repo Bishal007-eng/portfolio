@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "caption": "College Image",
+    "img": " ./images/College1.jpg"
+    
+  },
+  {
+    "id": 2,
+    "caption": "College Image",
+    "img": "./images/ShopAdmin.jpg"
+  },
+  {
+    "id": 3,
+    "caption": "College Image",
+    "img": "./images/hotel1.jpg"
+      },
+  {
+    "id": 4,
+    "caption": "College Image",
+    "img": "./images/College1.jpg"    
+  }
+]
