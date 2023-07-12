@@ -47,22 +47,25 @@ export default function Project() {
           <p>
             {d.Description}
           </p>
-          <button className='bg-[#071952] w-[250px] rounded-md flex font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>View Project in GitHub
-            <svg 
-              className="mx-5 w-6 h-6 text-white-800 dark:text-white" 
-              aria-hidden="true" xmlns="http://www.w3.org/2000/svg" 
-              fill="none" 
-              viewBox="0 0 14 10"
-            >
-              <path 
-                stroke="currentColor" 
-                stroke-linecap="round" 
-                stroke-linejoin="round" 
-                stroke-width="2" 
-                d="M1 5h12m0 0L9 1m4 4L9 9"
-              />
-            </svg>
-          </button>
+          <a href='https://github.com/Bishal007-eng/CollegeWebSite.git'>
+            <button className='bg-[#071952] w-[250px] flex rounded-md font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>
+              View Project in GitHub
+              <svg 
+                className="mx-5 w-6 h-[45px] text-white-800 dark:text-white" 
+                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 14 10"
+              >
+                <path 
+                  stroke="currentColor" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  stroke-width="2" 
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </button>
+          </a>
         </div>      
       </div>
 
