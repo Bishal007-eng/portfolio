@@ -5,7 +5,7 @@
       "path": "../images/College1.jpg", 
       "heading": "College website Dashboard" , 
       "SubHeading": "kathmandu BernHardt College Website" ,
-      "Description": "Kathmandu BernHardt College is located inside of Kathmandu District of Nepal. This website is a practice for college website that provides the college and its amazing history. Students can join the college, register themself and get enrolled into the college via this website" 
+      "Description": "Kathmandu BernHardt College is located inside of Kathmandu District of Nepal. This website is a practice for college website that provides the college and its amazing history. Students can join the college, register themselves and get enrolled into the college via this website" 
     },
 
     { 
@@ -13,7 +13,7 @@
       "path": "../images/ShopAdmin.jpg", 
       "heading": "E-Mobile Shop Dashboard" , 
       "SubHeading": "Online Mobile Phone Shopping  Website" ,
-      "Description": "E-mobile Shop is an online mobile shopping platform that sells verity of mobile phones and their corresponding products. Users can view the products in our dashboard or via a specific brand like 'Samsung','Apple','Vivo' etc. There is a wide range of products to choose from. Moreover, users can also add their desired products to their wishlist and purchase them later from the wishlist directly. Users can also choose their mode of pay i.e either via Cash on Delivery or Online payment method. There is also a different section for admins to keep track of the stock and also about users order and queries. Admin can respond to the queires of the users and help them to get a good user experience. The system was made using Bootstrap, HTML, CSS, JavaScript, and AJAX." 
+      "Description": "E-mobile Shop is an online mobile shopping platform that sells verity of mobile phones and their corresponding products. Users can view the products in our dashboard or via a specific brand like 'Samsung','Apple','Vivo' etc. There is a wide range of products to choose from. Moreover, users can also add their desired products to their wishlist and purchase them later from the wishlist directly. Users can also choose their mode of pay i.e either via Cash on Delivery or Online payment method. There is also a different section for admins to keep track of the stock and also about users order and queries. Admin can respond to the queries of the users and help them to get a good user experience. The system was made using Bootstrap, HTML, CSS, JavaScript, and AJAX." 
     },
 
     { 
@@ -21,11 +21,11 @@
       "path": "../images/hotel1.jpg", 
       "heading": "Hotel Reservation System Dashboard" , 
       "SubHeading": "Online Hotel Reservation Website" ,
-      "Description": "Hotel reservation system is a replicate system of Nepal's one of the most famous and leading Hotel industry 'Soaltee Hotel'. This system has different sections to look for. It is divided into 2 parts: One for user Interactions and one for Admin. Users can Register themself to the system which allows them to make the reservation of their desired rooms. They can also make queries to the Admin via Contact Us section. Users are presented with an interactive and fun UI which is super easy to understand and use. The system is loaded with functionalities such as email and OTP verification, Forget Password Functionalities, Online Payment System, Room reservation and Query section to ask questions. <br/> Similarly, Admin is the one who controls the backend of the system. They can add or delete rooms, set the activity of the room and let users know if the room is available or is reserved. They manage the carousels of the hotel and answers to users queries. Admin also can manage users and their rooms. <br/> The system was made using Bootstrap, HTML, CSS, JavaScript, SendGrid(For Email verification and forgot password Functionality), and AJAX." 
+      "Description": "Hotel reservation system is a replicate system of Nepal's one of the most famous and leading Hotel industry 'Soaltee Hotel'. This system has different sections to look for. It is divided into 2 parts: One for user Interactions and one for Admin. Users can Register thyself to the system which allows them to make the reservation of their desired rooms. They can also make queries to the Admin via Contact Us section. Users are presented with an interactive and fun UI which is super easy to understand and use. The system is loaded with functionalities such as email and OTP verification, Forget Password Functionalities, Online Payment System, Room reservation and Query section to ask questions. Similarly, Admin is the one who controls the backend of the system. They can add or delete rooms, set the activity of the room and let users know if the room is available or is reserved. They manage the carousels of the hotel and answers to users queries. Admin also can manage users and their rooms. The system was made using Bootstrap, HTML, CSS, JavaScript, SendGrid(For Email verification and forgot password Functionality), and AJAX." 
     },
     { 
       "id": 4, 
-      "path": "../images/College1.jpg", 
+      "path": "../images/Weather.jpg", 
       "heading": "Weather App " , 
       "SubHeading": "Weather Around the World App Using React" ,
       "Description": "Weather App is a ReactJs App that show the weather around the world." 
