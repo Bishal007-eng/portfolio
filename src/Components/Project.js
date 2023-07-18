@@ -1,23 +1,23 @@
-import React, {useState , useEffect} from 'react';
-import axios from 'axios';
+import React from 'react';
+// import axios from 'axios';
 
 import College from '../images/College1.jpg';
 import Mobile from '../images/ShopAdmin.jpg';
 import Hotel from '../images/hotel1.jpg';
 import WeatherApp from '../images/Weather.jpg';
-
+import projectDatabase from './projectDatabase.json';
 
 
 export default function Project() {
 
-  const [postData, setPostData] = useState([])
+  const postData = projectDatabase.posts;
 
-  useEffect(()=> {
-    axios.get('http://localhost:3031/posts')
-    .then(res => setPostData(res.data))
-    .catch(err => console.log(err))
+  // useEffect(()=> {
+  //   axios.get('/projectDatabase.json')
+  //   .then(res => setPostData(res.data))
+  //   .catch(err => console.log(err))
 
-  }, []);
+  // }, []);
 
   const getImagePath = (path) => {
     switch (path) {
