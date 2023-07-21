@@ -33,6 +33,22 @@
       "SubHeading": "Weather Around the World App Using React" ,
       "Description": "Weather App is a ReactJs App that show the weather around the world. The app can display weathers like Clear, Rainy, Snowing, Cloudy, Hazy, Foggy etc. The App uses an API called OpenWeatherMap that provides Real world data which is used to display the weather of the particular area. The app also displays the weather Temperature of the moment which is really helpful. The app uses Pretty smooth and and interactive UI for users convince. The App is based on ReactJs." ,
       "ProjectLink": "https://github.com/Bishal007-eng/Weather-App.git"
+    },
+    { 
+      "id": 5, 
+      "path": "../images/todo_app.jpg", 
+      "heading": "To-Do App " , 
+      "SubHeading": "Daily To-do tasks App Using React" ,
+      "Description": "This is a Daily To-Do tasks application where user can Add their tasks of the day and then delete them once they are completed.This is a really helpful app considering the fact that people can set their tasks and descriptions accordingly. The app uses Pretty smooth and and interactive UI for users convince. The App is based on ReactJs and uses Browser's Local Storage for storing users data which user can delete once they are completed from the app itself." ,
+      "ProjectLink": "https://github.com/Bishal007-eng/ToDo-App.git"
+    },
+    { 
+      "id": 6, 
+      "path": "../images/textUtility.jpg", 
+      "heading": "Text Editor " , 
+      "SubHeading": "Text Editor App Using React" ,
+      "Description": "This is my first React Project. This Project is a simple text manipulator which is capable of manipulating texts such as conversion to UPPER and LOWER CASES, Clear Extra Spaces, Redo, Preview and more. User can also keep track of number of words and characters. User can also toggle between Dark/Light mode of better user experience. This app uses bootstrap for styling and ReactJs." ,
+      "ProjectLink": "https://github.com/Bishal007-eng/TextEditor-React.git"
     }
   ]
 }
