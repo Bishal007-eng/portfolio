@@ -5,6 +5,8 @@ import College from '../images/College1.jpg';
 import Mobile from '../images/ShopAdmin.jpg';
 import Hotel from '../images/hotel1.jpg';
 import WeatherApp from '../images/Weather.jpg';
+import TodoApp from '../images/todo_app.jpg';
+import TextUtility from '../images/textUtility.jpg';
 import projectDatabase from './projectDatabase.json';
 
 
@@ -29,6 +31,10 @@ export default function Project() {
         return Hotel;
       case '../images/Weather.jpg':
         return WeatherApp;
+      case '../images/todo_app.jpg':
+        return TodoApp;
+      case '../images/textUtility.jpg':
+        return TextUtility;
       default:
         return '';
     }
