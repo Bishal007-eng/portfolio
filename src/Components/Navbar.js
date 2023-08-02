@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import {AiOutlineClose , AiOutlineMenu} from 'react-icons/ai';
 import { HiOutlineMail } from 'react-icons/hi';
-import { FaFacebook , FaInstagram , FaGithub , FaLinkedin} from 'react-icons/fa'
+import { FaFacebook , FaGithub , FaLinkedin} from 'react-icons/fa'
 
 export default function Navbar() {
   const [nav , setNav] = useState(false)
