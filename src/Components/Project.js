@@ -10,6 +10,8 @@ import TextUtility from '../images/textUtility.jpg';
 import RecipeBook from '../images/RecipeBook.jpg';
 import projectDatabase from './projectDatabase.json';
 
+import { HiArrowNarrowRight } from 'react-icons/hi'
+
 
 export default function Project() {
 
@@ -72,23 +74,20 @@ export default function Project() {
               <p className='mx-4'>
                 {d.Description}
               </p>
-              <a href='https://github.com/Bishal007-eng/CollegeWebSite.git'>
-                <button className='bg-[#071952] w-[250px] flex rounded-md font-bold my-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>
-                  View Project in GitHub
-                  <svg 
-                    className="mx-5 w-6 h-[45px] text-white-800 dark:text-white" 
-                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" 
-                    fill="none" 
-                    viewBox="0 0 14 10"
-                  >
-                    <path 
-                      stroke="currentColor" 
-                      stroke-linecap="round" 
-                      stroke-linejoin="round" 
-                      stroke-width="2" 
-                      d="M1 5h12m0 0L9 1m4 4L9 9"
-                    />
-                  </svg>
+
+              <a href={d.ProjectLink}>
+                <button className='bg-[#071952] w-[250px] flex rounded-md font-bold mt-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>
+                  View Project in GitHub&nbsp;<HiArrowNarrowRight size={30} />
+                </button>
+
+                
+              </a>
+              <a href={d.Deploy}>
+                <button 
+                  className='text-white border-2 px-6 py-2 mt-6 flex items-center rounded-md hover:bg-[#91ffcb] hover:text-black hover:font-bold'>
+                    Live demo&nbsp;<HiArrowNarrowRight size={30} 
+                  />
+                  
                 </button>
               </a>
             </div>      
