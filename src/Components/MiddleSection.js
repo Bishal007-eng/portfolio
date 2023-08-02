@@ -9,8 +9,8 @@ import { MdCloudDownload } from 'react-icons/md'
 export default function MiddleSection() {
   // const text = Typed("React Development" , [200]);
   return (
-    <div className='text-white'>
-      <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center'>
+    <div className='text-white' name='middlesection'>
+      <div className='max-w-[800px] mt-[-96px] w-full h-screen lg:mx-auto sm:mx-[35px] flex flex-col justify-center'>
         <p className='text-[#91ffcb] text-3xl font-bold p-2'>Hi there!</p>
         <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-2'>I'm Bishal Thapa</h1>
         
