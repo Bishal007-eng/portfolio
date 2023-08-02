@@ -48,6 +48,14 @@
       "heading": "Text Editor " , 
       "SubHeading": "Text Editor App Using React" ,
       "Description": "This is my first React Project. This Project is a simple text manipulator which is capable of manipulating texts such as conversion to UPPER and LOWER CASES, Clear Extra Spaces, Redo, Preview and more. User can also keep track of number of words and characters. User can also toggle between Dark/Light mode of better user experience. This app uses bootstrap for styling and ReactJs." ,
+      "ProjectLink": "https://github.com/Bishal007-eng/RecipeBook.git"
+    },
+    { 
+      "id": 6, 
+      "path": "../images/RecipeBook.jpg", 
+      "heading": "Recipe Book " , 
+      "SubHeading": "Recipe Book App Using React" ,
+      "Description": "This is my latest React Project. This Project is a simple Recipe book or a Recipe Finder app that gives users some amazing recipes that they can prepare at their homes. This app has search functionality, Details of the recipe with ratings, and also ingredient details to make the dish. The API for the project was taken from 'https://forkify-api.herokuapp.com' website which required no API KEY. The project was made with ReactJS, Semantic UI for UI designs and some other CSS properties for Responsiveness." ,
       "ProjectLink": "https://github.com/Bishal007-eng/TextEditor-React.git"
     }
   ]
