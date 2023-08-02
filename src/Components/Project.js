@@ -7,6 +7,7 @@ import Hotel from '../images/hotel1.jpg';
 import WeatherApp from '../images/Weather.jpg';
 import TodoApp from '../images/todo_app.jpg';
 import TextUtility from '../images/textUtility.jpg';
+import RecipeBook from '../images/RecipeBook.jpg';
 import projectDatabase from './projectDatabase.json';
 
 
@@ -35,6 +36,8 @@ export default function Project() {
         return TodoApp;
       case '../images/textUtility.jpg':
         return TextUtility;
+      case '../images/RecipeBook.jpg':
+        return RecipeBook;
       default:
         return '';
     }
@@ -48,9 +51,9 @@ export default function Project() {
         
         <div className='flex flex-col justify-center'>
 
-          <p className='text-[#22e68b] font-bold uppercase'>{d.heading}</p>
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>{d.SubHeading}</h1>
-          <p>
+          <p className='text-[#22e68b] mx-4 font-bold uppercase'>{d.heading}</p>
+          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 mx-4'>{d.SubHeading}</h1>
+          <p className='mx-4'>
             {d.Description}
           </p>
           <a href='https://github.com/Bishal007-eng/CollegeWebSite.git'>

@@ -26,11 +26,6 @@ function App() {
 
         </Index>
       </Router>
-
-      
-      {/* <Navbar />
-      <MiddleSection />
-      <Project /> */}
     </div>
   );
 }
