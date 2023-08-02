@@ -45,17 +45,17 @@ export default function Navbar() {
           <li className='w-[180px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a 
               className='flex mx-3 justify-between items-center w-full text-gray-300'
-              href="/"
+              href="https://www.facebook.com/profile.php?id=100044386269936"
             >
               <p className='ml-5'>Facebook</p><FaFacebook size={30} />
             </a>
           </li>
 
-          {/* instagram Link */}
+          {/* Email Link */}
           <li className='w-[180px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#e2403b]'>
             <a
               className='flex mx-3 justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto: bishal.thap3@gmail.com'
             >
               <p className='ml-5'>E-mail</p><HiOutlineMail size={30} />
             </a>
@@ -65,7 +65,7 @@ export default function Navbar() {
           <li className='w-[180px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#0f0887]'>
             <a
               className='flex mx-3 justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/bishal-thapa-8734991a7/'
             >
               <p className='ml-5'>linkedIn</p> <FaLinkedin size={30} />
             </a>
@@ -75,7 +75,7 @@ export default function Navbar() {
           <li className='w-[180px] h-[60px] flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex mx-3 justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/Bishal007-eng'
             >
               <p className='ml-5'>Github</p> <FaGithub size={30} />
             </a>

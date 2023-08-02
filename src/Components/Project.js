@@ -54,6 +54,11 @@ export default function Project() {
 
   return(
     <div>
+      <div className='lg:max-w-[1500px] sm:max-w-[800px] lg:mx-auto sm:mx-[35px] flex flex-col'>
+        <p className='text-[#91ffcb] text-4xl inline border-b-4 border-[#91ffcb] font-bold p-2 sm:mx-[10px]'>Projects</p>  
+        <p className='text-gray-400 mx-4 text-xl'>Here are some of the projects I have done...</p> 
+      </div>
+
       {postData.slice(0, visibleProjects).map((d) => (
         <div className='w-full text-white py-16 px-4' key={d.id}>
           <div className="max-w-[1540px] mx-auto grid md:grid-cols-2">
