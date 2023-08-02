@@ -2,6 +2,7 @@ import React from 'react'
 import ReactTyped from 'react-typed';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import { MdCloudDownload } from 'react-icons/md'
+import Resume from '../assets/Resume/Resume2.pdf';
 
 // import { Typed } from './Typed'
 
@@ -29,17 +30,22 @@ export default function MiddleSection() {
           Hire me for a professional & most responsive web development with up-to-date technologies like ReactJs!
         </p>
         <div className='flex'>
-          <button 
-            className='text-white hover:text-black hover:bg-[#91ffcb] border-2 flex items-center rounded-md font-bold px-6 py-2 my-6 mr-4'>
-              Download CV &nbsp;<MdCloudDownload size={30}
-            />
-          </button>
-
-          <button 
-            className='text-white border-2 px-6 py-2 my-6 flex items-center rounded-md hover:bg-[#91ffcb] hover:text-black hover:font-bold'>
-              View Work&nbsp;<HiArrowNarrowRight size={30}
-            />
-          </button>
+          <a href={Resume} download={Resume}>
+            <button 
+              className='text-white hover:text-black hover:bg-[#91ffcb] border-2 flex items-center rounded-md font-bold px-6 py-2 my-6 mr-4'>
+                Download CV &nbsp;<MdCloudDownload size={30}
+              />
+            </button>
+          </a>
+         
+          <a href='/Projects'> 
+            <button 
+              className='text-white border-2 px-6 py-2 my-6 flex items-center rounded-md hover:bg-[#91ffcb] hover:text-black hover:font-bold'>
+                View Work&nbsp;<HiArrowNarrowRight size={30}
+              />
+            </button>
+          
+          </a>
 
         </div>
           
