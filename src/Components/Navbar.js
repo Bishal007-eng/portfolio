@@ -34,7 +34,7 @@ export default function Navbar() {
         <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/'>Home</a></li>
         <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/About'>About</a></li>
         <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/Experience'>Experience</a></li>
-        <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/Projects'>projects</a></li>
+        <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/Projects'>Projects</a></li>
         <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/TravelBlogs'>TravelBlogs</a></li>
         <li className='p-4 text-xl text-[#2ec1ac]'><a href='/Contact'>Contact</a></li>
       </ul>       
