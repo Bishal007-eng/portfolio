@@ -57,12 +57,12 @@ export default function Project() {
   return(
     <div>
       <div className='lg:max-w-[1500px] sm:max-w-[800px] lg:mx-auto sm:mx-[35px] flex flex-col'>
-        <p className='text-[#91ffcb] text-4xl inline border-b-4 border-[#91ffcb] font-bold p-2 sm:mx-[10px]'>Projects</p>  
+        <p className='text-[#91ffcb] text-4xl inline border-b-4 border-[#91ffcb] font-bold p-2 mx-[15px]'>Projects</p>  
         <p className='text-gray-400 mx-4 text-xl'>Here are some of the projects I have done...</p> 
       </div>
 
       {postData.slice(0, visibleProjects).map((d) => (
-        <div className='w-full text-white py-16 px-4' key={d.id}>
+        <div className='w-full text-white lg:py-16 py-3 px-4' key={d.id}>
           <div className="max-w-[1540px] mx-auto grid md:grid-cols-2">
 
             <img className='w-[500px] mx-auto my-4 h-[300px]' src={getImagePath(d.path)} alt='/' />
@@ -76,12 +76,11 @@ export default function Project() {
               </p>
 
               <a href={d.ProjectLink}>
-                <button className='bg-[#071952] w-[250px] flex rounded-md font-bold mt-6 mx-auto md:mx-0 px-5 py-3 text-[#91ffcb]'>
+                <button className='bg-[#071952] w-[250px] flex rounded-md font-bold mt-6 lg:mx-auto px-5 py-3 text-[#91ffcb]'>
                   View Project in GitHub&nbsp;<HiArrowNarrowRight size={30} />
-                </button>
-
-                
+                </button>                
               </a>
+
               <a href={d.Deploy}>
                 <button 
                   className='text-white border-2 px-6 py-2 mt-6 flex items-center rounded-md hover:bg-[#91ffcb] hover:text-black hover:font-bold'>
@@ -98,7 +97,7 @@ export default function Project() {
         </div>
 
       ))}
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-[45px]">
         {postData.length > 3 && visibleProjects === 3 && (
           // Show "Show More" button if there are more than 4 projects
           <button

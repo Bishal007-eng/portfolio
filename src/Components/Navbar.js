@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <div className='flex justify-between items-center h-24 max-w-[1850px] mx-auto px-4 text-white'> 
-      <h1 className='w-full text-3xl font-bold text-[#2ec1ac]'>Portfolio</h1>
+      <h1 className='w-full lg:text-4xl text-3xl font-bold text-[#2ec1ac]'>Portfolio</h1>
 
       <ul className='hidden lg:flex'>
         <a className='p-4 text-[#279e8c] flex font-bold text-xl' href="/" >Home</a>
@@ -30,7 +30,7 @@ export default function Navbar() {
         
       <ul 
         className = {nav ? 'absolute left-0 top-0 w-[60%] h-full border-r bg-[#000300] ease-in duration-300' : 'hidden'}>
-        <h1 className='w-full text-3xl font-bold m-4 text-[#2ec1ac]'>Portfolio</h1>
+        <h1 className='w-full lg:text-4xl text-2xl font-bold m-4 text-[#2ec1ac]'>Portfolio</h1>
         <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/'>Home</a></li>
         <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/About'>About</a></li>
         <li className='p-4 border-b border-white-600 text-xl text-[#2ec1ac]'><a href='/Experience'>Experience</a></li>
